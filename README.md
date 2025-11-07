@@ -147,3 +147,10 @@ Build the following routes:
 - Delete stale branches on GitHub.
 - Remove unnecessary or commented-out code.
 - Update `.gitignore` if needed to exclude sensitive data
+
+## Results
+
+Tests passed successfully for both routes.
+
+- `/contract/<id>` Returns **200** and correct data when found, **404** when not found.
+- `/customer/<customer_name>` Returns **204** (no content) when customer exists, **404** when not found.
